@@ -12,6 +12,6 @@ export class ConfigService {
         'BASE_URL_IPMA is not defined in the environment variables.'
       );
     }
-    return this.configService.get<string>('BASE_URL_IPMA');
+    return baseUrl;
   }
 }
