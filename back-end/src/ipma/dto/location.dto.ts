@@ -17,11 +17,13 @@ export class LocationDto {
   latitude: string;
 
   @ApiProperty()
+  longitude: string;
+
+  @ApiProperty()
   idDistrito: number;
 
   @ApiProperty()
   local: string;
 
-  @ApiProperty()
-  longitude: string;
+
 }
