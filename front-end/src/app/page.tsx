@@ -1,4 +1,5 @@
-import { Card } from '@/components/card';
+import { CardApi } from '@/components/card_api';
+import { CardIpma } from '@/components/card_ipma';
 
 export default function Index() {
   return (
@@ -6,8 +7,9 @@ export default function Index() {
       className="flex justify-center items-start h-screen bg-cover bg-center"
       style={{ backgroundImage: 'url("/fundo.jpg")' }}
     >
-      <div>
-        <Card />
+      <div className="flex flex-row gap-4">
+        <CardApi />
+        <CardIpma />
       </div>
     </div>
   );

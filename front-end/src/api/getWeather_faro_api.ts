@@ -16,7 +16,7 @@ interface WeatherResponse {
   dateWeather: string[];
 }
 
-export const getWeatherFaro = async () => {
+export const getWeather_faro_api = async () => {
   const { data } = await api<WeatherResponse>('/ipma/weather-faro');
   return data;
 };
