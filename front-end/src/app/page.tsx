@@ -7,7 +7,7 @@ export default function Index() {
       className="flex justify-center items-start h-screen bg-cover bg-center"
       style={{ backgroundImage: 'url("/fundo.jpg")' }}
     >
-      <div className="flex flex-row gap-4">
+      <div className="flex flex-col md:flex-row gap-4">
         <CardApi />
         <CardIpma />
       </div>

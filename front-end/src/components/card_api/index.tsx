@@ -40,9 +40,9 @@ export function CardApi() {
   };
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center ">
       {/* Dados que vem da API */}
-      <div className="max-w-sm  w-70 mx-auto bg-white rounded-xl overflow-hidden ml-10 p-6 mt-10">
+      <div className="max-w-sm  w-70 mx-auto bg-white rounded-xl overflow-hidden p-6 mt-10">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-semibold text-gray-800 select-none">
